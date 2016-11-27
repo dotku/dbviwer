@@ -3,7 +3,7 @@ A simple DBViwer for your need
 
 ## GET START
 
-1. copy and modify the DB config (for MySQL only) in file /Common/Conf/config.sample.php to /Common/Conf/config.php.  
+1. Copy and modify the DB config (for MySQL only) in file /Common/Conf/config.sample.php to /Common/Conf/config.php.  
  
  eg. Config Sample
  
