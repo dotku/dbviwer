@@ -1,4 +1,6 @@
 ﻿# DBViwer 
+A simple DBViwer for your need
+
 ## GET START
 
 1. modify the DB config (for MySQL only) in file /Common/Conf/config.php
