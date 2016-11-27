@@ -3,9 +3,10 @@ A simple DBViwer for your need
 
 ## GET START
 
-1. modify the DB config (for MySQL only) in file /Common/Conf/config.php
+1. copy and modify the DB config (for MySQL only) in file /Common/Conf/config.sample.php to 
+/Common/Conf/config.php.
 
-eg.
+eg. Config Sample
 ```php
 return array(
 	'DB_TYPE'   => 'mysql', // 数据库类型
