@@ -6,7 +6,6 @@ A simple DBViwer for your need
 1. copy and modify the DB config (for MySQL only) in file /Common/Conf/config.sample.php to /Common/Conf/config.php.  
  
  eg. Config Sample
- 
  ```php
 return array(
 	'DB_TYPE'   => 'mysql', // 数据库类型
