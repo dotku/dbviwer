@@ -3,11 +3,11 @@ A simple DBViwer for your need
 
 ## GET START
 
-1. copy and modify the DB config (for MySQL only) in file /Common/Conf/config.sample.php to 
-/Common/Conf/config.php.
-
-eg. Config Sample
-```php
+1. copy and modify the DB config (for MySQL only) in file /Common/Conf/config.sample.php to /Common/Conf/config.php.  
+ 
+ eg. Config Sample
+ 
+ ```php
 return array(
 	'DB_TYPE'   => 'mysql', // 数据库类型
 	'DB_HOST'   => 'localhost', // 服务器地址
@@ -16,5 +16,5 @@ return array(
 	'DB_PWD'    => 'admin123', // 密码
 	'PIN'       => '123456'
 );
-```
-DONE
+ ```
+2. DONE
