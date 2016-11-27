@@ -40,17 +40,17 @@
         <i class="glyphicon glyphicon-th"></i>
         Tables
       </h2>
-      <ul>
+      <ol>
       <?php foreach($dbList as $k => $v) { ?>
         <li><a href="?table=<?php echo $v; ?>"><?php echo $v; ?></a></li>
       <?php } ?>
-      </ul>
+      </ol>
       <a href="<?php echo U('logout')?>" class="btn btn-default">LOGOUT</a>
       </div>
       <div class="col-md-9">
         <?php 
-          if ($_GET['table'] && D($_GET['table'])) { 
-            $model = D($_GET['table']);
+          if ($_GET['table'] && D()->table($_GET['table'])) { 
+            $model = D()->table($_GET['table']);
         ?>
           <table class="table">
             <thead>
