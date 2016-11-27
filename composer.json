@@ -1,0 +1,14 @@
+{
+    "name": "dotku/dbviewer",
+    "description": "A simple MySQL Database Viwer",
+		"description_cn": "简易 MySQL 数据库查看器",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jay Lin",
+            "email": "weijingjaylin@gmail.com"
+        }
+    ],
+    "require": {}
+}
